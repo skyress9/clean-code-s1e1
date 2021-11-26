@@ -4,15 +4,18 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .header img {
     width: 100%;
 }
+
 .header .more-inf {
     font-family: fantasy, cursive;
 }
@@ -23,29 +26,38 @@ body {
         text-align: center;
     }
 }
+
 .center-elem {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
+
 .task-wrapper {
     display: flex;
 }
+
 .completed-tasks {
     margin: 0;
     padding: 0px;
 }
-.tasks__item, .center-elem__title {
+
+.tasks__item, 
+.center-elem__title {
     list-style: none;
 }
-input,button{
+
+input,
+button {
     outline: none;
 }
+
 .btn {
     background: none;
     border: 0px;
@@ -55,10 +67,13 @@ input,button{
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .btn:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
+
 .center-elem__title,
 .new-task__label {
     color: #333;
@@ -69,6 +84,7 @@ input,button{
     margin: 0;
     text-transform: uppercase;
 }
+
 .input__text {
     margin: 0;
     font-size: 18px;
@@ -81,20 +97,24 @@ input,button{
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .input__text:focus {
     color: #333;
 }
 
 /* New Task */
+
 .new-task__label {
     display: block;
     margin: 0 0 20px;
 }
+
 #new-task {
     width: 318px;
 }
 
 /* Task list */
+
 .tasks__item {
     overflow: hidden;
     padding: 20px 0;
@@ -104,6 +124,7 @@ input,button{
     justify-content: space-between;
     align-items: center;
 }
+
 .tasks__item > * {
     vertical-align: middle;
 }
@@ -111,20 +132,24 @@ input,button{
 .tasks__item > .input__checkbox {
     margin: 0 10px;
 }
+
 .tasks__item > .task__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .tasks__item > .input__text {
     width: 226px;
 }
+
 .delete__img {
     height: 2em;
     transform: rotatez(45deg);
     transition: transform 200ms ease-in;
 }
+
 .delete__img:hover {
     transform: rotatez(0);
 }
